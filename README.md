@@ -1,7 +1,6 @@
 # 🧊 FruityAero – Página de Login com Glassmorphism
-Uma interface
-#🧊 Fruity Aero – Página de Login com Glassmorphism
-Conclusão
+
+Conclusão:
 
 Este projeto foi inspirado no visual icônico do tema Windows Frutiger Aero, conhecido pelo seu estilo translúcido, moderno e com efeitos de vidro. Busquei aplicar esses conceitos no layout do formulário, utilizando efeitos glassmorphism com backdrop-filter, sombras e cores suaves.
 
