@@ -44,27 +44,26 @@ body::before {
   align-items: center;
   justify-content: center;
   margin-top: 80px;
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   background-color: rgba(255, 255, 255, 0.12);
-  border-radius: 16px;
-  padding: 20px;
-  backdrop-filter: blur(40px);
+  border-radius: 18% / 50%;
+  padding: 9px;
+  backdrop-filter: blur(100px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .avatar {
   align-items: center;
   justify-content: center;
-
   width: 100%;
   height: 100%;
-  margin-bottom: 2px;
+
   object-fit: cover;
   border-radius: 15px;
   box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.4),
     0 4px 12px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 4px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(4px);
 }
@@ -82,7 +81,42 @@ form h2 {
   margin-bottom: 20px;
 }
 
+.input {
+  position: relative;
+  border: 4px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 5px;
+  border-radius: 5px;
+}
+
 .input input {
-  margin-bottom: 15px;
-  padding: 12px;
+  width: 100%;
+  height: 28px;
+  background-color: #fff;
+  border: #fff;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.glass-button {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(145deg, #aee4ff, #5bc0ff);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.8),
+    0 2px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  backdrop-filter: blur(4px);
+}
+
+.glass-button:hover {
+  transform: scale(1.1);
 }
